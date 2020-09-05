@@ -18,4 +18,26 @@ print("Hello " + user)
 # their favorite color.
 color = input("What is your color?")
 print("Awesome! " + color + " is a great color!")
+
+# CONDITIONALS - if/else statements used for decision-making.
+# tests if a condition is true, if so do a command else do something.
+
+# if color == "blue":
+#     print("the sky is blue!")
+# elif color == "red":
+#     print("roses are red")
+# else:
+#     print("idk what color that is")
+
+if type(color) == str:
+    print("Color is a string")
+
+if isinstance(color, str):
+    print("Color is an instance of a string")
+
+num = 10
+
+if isinstance(num, int):
+    print("num is an integer")
+
  
